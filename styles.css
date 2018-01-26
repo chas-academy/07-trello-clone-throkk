@@ -1,0 +1,74 @@
+html,
+body {
+  background: #9999ff;
+  margin: 0;
+  padding: 30px 0 0;
+  font-family: sans-serif;
+  color: #4d4d4d;
+}
+
+/* .board {
+    height: 100vh;
+} */
+
+.column {
+    width: 270px;
+    margin: 0 5px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+  
+.list {
+    background: #e2e4e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.list-header {
+    font-size: 14px;
+    min-height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;
+    color: #4d4d4d;
+}
+  
+.list-header .delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 8px;
+}
+  
+.list-cards {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 4px;
+    padding: 0 4px;
+    z-index: 1;
+    min-height: 0;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
